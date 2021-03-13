@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27535FA525FB56D900AA9161 /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27535FA425FB56D900AA9161 /* TrackCollectionHeaderView.swift */; };
 		275D845025FA4F800068E0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D844F25FA4F800068E0ED /* AppDelegate.swift */; };
 		275D845225FA4F800068E0ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D845125FA4F800068E0ED /* SceneDelegate.swift */; };
-		275D845425FA4F800068E0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D845325FA4F800068E0ED /* ViewController.swift */; };
 		275D845725FA4F800068E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275D845525FA4F800068E0ED /* Main.storyboard */; };
 		275D845925FA4F840068E0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275D845825FA4F840068E0ED /* Assets.xcassets */; };
 		275D845C25FA4F840068E0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275D845A25FA4F840068E0ED /* LaunchScreen.storyboard */; };
 		275D846725FA4F840068E0ED /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D846625FA4F840068E0ED /* MusicAppTests.swift */; };
 		275D847225FA4F840068E0ED /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D847125FA4F840068E0ED /* MusicAppUITests.swift */; };
+		275D848425FA52C40068E0ED /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D848325FA52C40068E0ED /* TrackCollectionViewCell.swift */; };
+		275D848C25FA546A0068E0ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D848B25FA546A0068E0ED /* HomeViewController.swift */; };
+		275D84B325FA58C40068E0ED /* Moonlight!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D849D25FA58C30068E0ED /* Moonlight!.mp3 */; };
+		275D84B425FA58C40068E0ED /* Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D849E25FA58C30068E0ED /* Glow.mp3 */; };
+		275D84B525FA58C40068E0ED /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D849F25FA58C30068E0ED /* tranquility.mp3 */; };
+		275D84B625FA58C40068E0ED /* memories (listen on spotify from 3am ep).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A025FA58C30068E0ED /* memories (listen on spotify from 3am ep).mp3 */; };
+		275D84B725FA58C40068E0ED /* when the leaves start falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A125FA58C30068E0ED /* when the leaves start falling.mp3 */; };
+		275D84B825FA58C40068E0ED /* i fell in love with you one night in september..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A225FA58C30068E0ED /* i fell in love with you one night in september..mp3 */; };
+		275D84B925FA58C40068E0ED /* Bike Rides On The Block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A325FA58C30068E0ED /* Bike Rides On The Block.mp3 */; };
+		275D84BA25FA58C40068E0ED /* Chamomile Tea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A425FA58C30068E0ED /* Chamomile Tea.mp3 */; };
+		275D84BB25FA58C40068E0ED /* aruarian dance [lounge version].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A525FA58C30068E0ED /* aruarian dance [lounge version].mp3 */; };
+		275D84BC25FA58C40068E0ED /* Getsomerest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A625FA58C30068E0ED /* Getsomerest.mp3 */; };
+		275D84BD25FA58C40068E0ED /* elijah who - hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A725FA58C30068E0ED /* elijah who - hello.mp3 */; };
+		275D84BE25FA58C40068E0ED /* valentin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A825FA58C30068E0ED /* valentin.mp3 */; };
+		275D84BF25FA58C40068E0ED /* [ asleep ].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84A925FA58C30068E0ED /* [ asleep ].mp3 */; };
+		275D84C025FA58C40068E0ED /* night calls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AA25FA58C30068E0ED /* night calls.mp3 */; };
+		275D84C125FA58C40068E0ED /* distant moon (spotify apple etc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AB25FA58C40068E0ED /* distant moon (spotify apple etc).mp3 */; };
+		275D84C225FA58C40068E0ED /* Ocean ride __ 海の乗り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AC25FA58C40068E0ED /* Ocean ride __ 海の乗り.mp3 */; };
+		275D84C325FA58C40068E0ED /* Sampled in your own sweet way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AD25FA58C40068E0ED /* Sampled in your own sweet way.mp3 */; };
+		275D84C425FA58C40068E0ED /* always you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AE25FA58C40068E0ED /* always you.mp3 */; };
+		275D84C525FA58C40068E0ED /* Letting Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84AF25FA58C40068E0ED /* Letting Go.mp3 */; };
+		275D84C625FA58C40068E0ED /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84B025FA58C40068E0ED /* Sleepless.mp3 */; };
+		275D84C725FA58C40068E0ED /* Missing U In The Raining Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84B125FA58C40068E0ED /* Missing U In The Raining Day.mp3 */; };
+		275D84C825FA58C40068E0ED /* im trying to find myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 275D84B225FA58C40068E0ED /* im trying to find myself.mp3 */; };
+		275D84D625FA5A130068E0ED /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275D84D525FA5A130068E0ED /* Player.storyboard */; };
+		275D84DB25FA5A2D0068E0ED /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84DA25FA5A2D0068E0ED /* PlayerViewController.swift */; };
+		275D84E025FA5A5C0068E0ED /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84DF25FA5A5C0068E0ED /* SimplePlayer.swift */; };
+		275D84E525FA5A970068E0ED /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84E425FA5A970068E0ED /* Track.swift */; };
+		275D84EB25FA5AC50068E0ED /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84EA25FA5AC50068E0ED /* TrackManager.swift */; };
+		275D84F025FA5ADA0068E0ED /* Extention+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84EF25FA5ADA0068E0ED /* Extention+AVPlayerItem.swift */; };
+		275D84FC25FA5B690068E0ED /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D84FB25FA5B690068E0ED /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +66,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27535FA425FB56D900AA9161 /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
 		275D844C25FA4F800068E0ED /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275D844F25FA4F800068E0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		275D845125FA4F800068E0ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		275D845325FA4F800068E0ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		275D845625FA4F800068E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		275D845825FA4F840068E0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275D845B25FA4F840068E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,37 @@
 		275D846D25FA4F840068E0ED /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		275D847125FA4F840068E0ED /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		275D847325FA4F840068E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275D848325FA52C40068E0ED /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		275D848B25FA546A0068E0ED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		275D849D25FA58C30068E0ED /* Moonlight!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Moonlight!.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Moonlight!.mp3"; sourceTree = "<group>"; };
+		275D849E25FA58C30068E0ED /* Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Glow.mp3; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Glow.mp3"; sourceTree = "<group>"; };
+		275D849F25FA58C30068E0ED /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tranquility.mp3; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/tranquility.mp3"; sourceTree = "<group>"; };
+		275D84A025FA58C30068E0ED /* memories (listen on spotify from 3am ep).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "memories (listen on spotify from 3am ep).mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/memories (listen on spotify from 3am ep).mp3"; sourceTree = "<group>"; };
+		275D84A125FA58C30068E0ED /* when the leaves start falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "when the leaves start falling.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/when the leaves start falling.mp3"; sourceTree = "<group>"; };
+		275D84A225FA58C30068E0ED /* i fell in love with you one night in september..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "i fell in love with you one night in september..mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/i fell in love with you one night in september..mp3"; sourceTree = "<group>"; };
+		275D84A325FA58C30068E0ED /* Bike Rides On The Block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Bike Rides On The Block.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Bike Rides On The Block.mp3"; sourceTree = "<group>"; };
+		275D84A425FA58C30068E0ED /* Chamomile Tea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Chamomile Tea.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Chamomile Tea.mp3"; sourceTree = "<group>"; };
+		275D84A525FA58C30068E0ED /* aruarian dance [lounge version].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "aruarian dance [lounge version].mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/aruarian dance [lounge version].mp3"; sourceTree = "<group>"; };
+		275D84A625FA58C30068E0ED /* Getsomerest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Getsomerest.mp3; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Getsomerest.mp3"; sourceTree = "<group>"; };
+		275D84A725FA58C30068E0ED /* elijah who - hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "elijah who - hello.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/elijah who - hello.mp3"; sourceTree = "<group>"; };
+		275D84A825FA58C30068E0ED /* valentin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = valentin.mp3; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/valentin.mp3"; sourceTree = "<group>"; };
+		275D84A925FA58C30068E0ED /* [ asleep ].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "[ asleep ].mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/[ asleep ].mp3"; sourceTree = "<group>"; };
+		275D84AA25FA58C30068E0ED /* night calls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "night calls.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/night calls.mp3"; sourceTree = "<group>"; };
+		275D84AB25FA58C40068E0ED /* distant moon (spotify apple etc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "distant moon (spotify apple etc).mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/distant moon (spotify apple etc).mp3"; sourceTree = "<group>"; };
+		275D84AC25FA58C40068E0ED /* Ocean ride __ 海の乗り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ocean ride __ 海の乗り.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Ocean ride __ 海の乗り.mp3"; sourceTree = "<group>"; };
+		275D84AD25FA58C40068E0ED /* Sampled in your own sweet way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sampled in your own sweet way.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Sampled in your own sweet way.mp3"; sourceTree = "<group>"; };
+		275D84AE25FA58C40068E0ED /* always you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "always you.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/always you.mp3"; sourceTree = "<group>"; };
+		275D84AF25FA58C40068E0ED /* Letting Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Letting Go.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Letting Go.mp3"; sourceTree = "<group>"; };
+		275D84B025FA58C40068E0ED /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sleepless.mp3; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Sleepless.mp3"; sourceTree = "<group>"; };
+		275D84B125FA58C40068E0ED /* Missing U In The Raining Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Missing U In The Raining Day.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/Missing U In The Raining Day.mp3"; sourceTree = "<group>"; };
+		275D84B225FA58C40068E0ED /* im trying to find myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "im trying to find myself.mp3"; path = "../../../../Desktop/올인원패키지-ios앱개발-강의자료/CH12 애플뮤직st 음악앱/final/AppleMusicStApp/AppleMusicStApp/Resources/im trying to find myself.mp3"; sourceTree = "<group>"; };
+		275D84D525FA5A130068E0ED /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		275D84DA25FA5A2D0068E0ED /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		275D84DF25FA5A5C0068E0ED /* SimplePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
+		275D84E425FA5A970068E0ED /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		275D84EA25FA5AC50068E0ED /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		275D84EF25FA5ADA0068E0ED /* Extention+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		275D84FB25FA5B690068E0ED /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +141,12 @@
 		275D844325FA4F800068E0ED = {
 			isa = PBXGroup;
 			children = (
+				275D848225FA524D0068E0ED /* HomeView */,
+				275D84D125FA59D70068E0ED /* Player */,
+				275D84E925FA5A9D0068E0ED /* Track(MVVM - Model) */,
+				275D84FA25FA5B410068E0ED /* Style */,
 				275D844E25FA4F800068E0ED /* MusicApp */,
+				275D849625FA589C0068E0ED /* Music */,
 				275D846525FA4F840068E0ED /* MusicAppTests */,
 				275D847025FA4F840068E0ED /* MusicAppUITests */,
 				275D844D25FA4F800068E0ED /* Products */,
@@ -101,8 +168,6 @@
 			children = (
 				275D844F25FA4F800068E0ED /* AppDelegate.swift */,
 				275D845125FA4F800068E0ED /* SceneDelegate.swift */,
-				275D845325FA4F800068E0ED /* ViewController.swift */,
-				275D845525FA4F800068E0ED /* Main.storyboard */,
 				275D845825FA4F840068E0ED /* Assets.xcassets */,
 				275D845A25FA4F840068E0ED /* LaunchScreen.storyboard */,
 				275D845D25FA4F840068E0ED /* Info.plist */,
@@ -126,6 +191,74 @@
 				275D847325FA4F840068E0ED /* Info.plist */,
 			);
 			path = MusicAppUITests;
+			sourceTree = "<group>";
+		};
+		275D848225FA524D0068E0ED /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				275D845525FA4F800068E0ED /* Main.storyboard */,
+				27535FA425FB56D900AA9161 /* TrackCollectionHeaderView.swift */,
+				275D848B25FA546A0068E0ED /* HomeViewController.swift */,
+				275D848325FA52C40068E0ED /* TrackCollectionViewCell.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		275D849625FA589C0068E0ED /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				275D84A925FA58C30068E0ED /* [ asleep ].mp3 */,
+				275D84AE25FA58C40068E0ED /* always you.mp3 */,
+				275D84A525FA58C30068E0ED /* aruarian dance [lounge version].mp3 */,
+				275D84A325FA58C30068E0ED /* Bike Rides On The Block.mp3 */,
+				275D84A425FA58C30068E0ED /* Chamomile Tea.mp3 */,
+				275D84AB25FA58C40068E0ED /* distant moon (spotify apple etc).mp3 */,
+				275D84A725FA58C30068E0ED /* elijah who - hello.mp3 */,
+				275D84A625FA58C30068E0ED /* Getsomerest.mp3 */,
+				275D849E25FA58C30068E0ED /* Glow.mp3 */,
+				275D84A225FA58C30068E0ED /* i fell in love with you one night in september..mp3 */,
+				275D84B225FA58C40068E0ED /* im trying to find myself.mp3 */,
+				275D84AF25FA58C40068E0ED /* Letting Go.mp3 */,
+				275D84A025FA58C30068E0ED /* memories (listen on spotify from 3am ep).mp3 */,
+				275D84B125FA58C40068E0ED /* Missing U In The Raining Day.mp3 */,
+				275D849D25FA58C30068E0ED /* Moonlight!.mp3 */,
+				275D84AA25FA58C30068E0ED /* night calls.mp3 */,
+				275D84AC25FA58C40068E0ED /* Ocean ride __ 海の乗り.mp3 */,
+				275D84AD25FA58C40068E0ED /* Sampled in your own sweet way.mp3 */,
+				275D84B025FA58C40068E0ED /* Sleepless.mp3 */,
+				275D849F25FA58C30068E0ED /* tranquility.mp3 */,
+				275D84A825FA58C30068E0ED /* valentin.mp3 */,
+				275D84A125FA58C30068E0ED /* when the leaves start falling.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		275D84D125FA59D70068E0ED /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				275D84D525FA5A130068E0ED /* Player.storyboard */,
+				275D84DA25FA5A2D0068E0ED /* PlayerViewController.swift */,
+				275D84DF25FA5A5C0068E0ED /* SimplePlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		275D84E925FA5A9D0068E0ED /* Track(MVVM - Model) */ = {
+			isa = PBXGroup;
+			children = (
+				275D84E425FA5A970068E0ED /* Track.swift */,
+				275D84EA25FA5AC50068E0ED /* TrackManager.swift */,
+				275D84EF25FA5ADA0068E0ED /* Extention+AVPlayerItem.swift */,
+			);
+			path = "Track(MVVM - Model)";
+			sourceTree = "<group>";
+		};
+		275D84FA25FA5B410068E0ED /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				275D84FB25FA5B690068E0ED /* DefaultStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +364,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275D84C625FA58C40068E0ED /* Sleepless.mp3 in Resources */,
+				275D84BD25FA58C40068E0ED /* elijah who - hello.mp3 in Resources */,
+				275D84C425FA58C40068E0ED /* always you.mp3 in Resources */,
+				275D84C225FA58C40068E0ED /* Ocean ride __ 海の乗り.mp3 in Resources */,
+				275D84B925FA58C40068E0ED /* Bike Rides On The Block.mp3 in Resources */,
+				275D84D625FA5A130068E0ED /* Player.storyboard in Resources */,
+				275D84C825FA58C40068E0ED /* im trying to find myself.mp3 in Resources */,
+				275D84B825FA58C40068E0ED /* i fell in love with you one night in september..mp3 in Resources */,
+				275D84C325FA58C40068E0ED /* Sampled in your own sweet way.mp3 in Resources */,
+				275D84C025FA58C40068E0ED /* night calls.mp3 in Resources */,
+				275D84BA25FA58C40068E0ED /* Chamomile Tea.mp3 in Resources */,
 				275D845C25FA4F840068E0ED /* LaunchScreen.storyboard in Resources */,
+				275D84BC25FA58C40068E0ED /* Getsomerest.mp3 in Resources */,
+				275D84B625FA58C40068E0ED /* memories (listen on spotify from 3am ep).mp3 in Resources */,
 				275D845925FA4F840068E0ED /* Assets.xcassets in Resources */,
+				275D84B425FA58C40068E0ED /* Glow.mp3 in Resources */,
+				275D84C725FA58C40068E0ED /* Missing U In The Raining Day.mp3 in Resources */,
+				275D84C525FA58C40068E0ED /* Letting Go.mp3 in Resources */,
+				275D84B325FA58C40068E0ED /* Moonlight!.mp3 in Resources */,
 				275D845725FA4F800068E0ED /* Main.storyboard in Resources */,
+				275D84BE25FA58C40068E0ED /* valentin.mp3 in Resources */,
+				275D84B525FA58C40068E0ED /* tranquility.mp3 in Resources */,
+				275D84B725FA58C40068E0ED /* when the leaves start falling.mp3 in Resources */,
+				275D84C125FA58C40068E0ED /* distant moon (spotify apple etc).mp3 in Resources */,
+				275D84BF25FA58C40068E0ED /* [ asleep ].mp3 in Resources */,
+				275D84BB25FA58C40068E0ED /* aruarian dance [lounge version].mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				275D845425FA4F800068E0ED /* ViewController.swift in Sources */,
+				275D848C25FA546A0068E0ED /* HomeViewController.swift in Sources */,
+				275D848425FA52C40068E0ED /* TrackCollectionViewCell.swift in Sources */,
+				275D84E025FA5A5C0068E0ED /* SimplePlayer.swift in Sources */,
 				275D845025FA4F800068E0ED /* AppDelegate.swift in Sources */,
 				275D845225FA4F800068E0ED /* SceneDelegate.swift in Sources */,
+				275D84FC25FA5B690068E0ED /* DefaultStyle.swift in Sources */,
+				27535FA525FB56D900AA9161 /* TrackCollectionHeaderView.swift in Sources */,
+				275D84EB25FA5AC50068E0ED /* TrackManager.swift in Sources */,
+				275D84F025FA5ADA0068E0ED /* Extention+AVPlayerItem.swift in Sources */,
+				275D84DB25FA5A2D0068E0ED /* PlayerViewController.swift in Sources */,
+				275D84E525FA5A970068E0ED /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
